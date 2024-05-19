@@ -16,9 +16,6 @@ This repository contains the HTML and CSS code for a responsive e-commerce landi
 - [Contributing](#contributing)
 - [License](#license)
 
-## Demo
-
-You can view a live demo of the e-commerce landing page [here](https://your-demo-link.com).
 
 ## Features
 
