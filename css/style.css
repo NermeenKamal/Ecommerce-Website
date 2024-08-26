@@ -2,8 +2,29 @@
     background-color: rgba(10, 2, 15, 0.84);
     color: white;
 }
+.body{
+    background-color: rgba(255, 255, 255, 0.84);
+}
 .cust{
     background-color: rgba(255, 255, 255, 0.84);
+}
+.cust {
+    z-index: 1;
+    right: 0;
+    bottom: 50%;
+    color: #343a40;
+    background-color: white;
+    border-color: #343a40;
+}
+.h2{
+    color: rgba(255,255,255,.5);
+}
+.slick{
+    color: white;
+}
+.btn-darkk{
+    background-color: #343a40;
+    color: white;
 }
 svg{
     width: 17px;
@@ -13,8 +34,51 @@ svg{
 .navbar-nav{
     align-items: center;
 }
+.nav-item .h:hover{
+   color: #282c32 ;
+}
+.active{
+    color: #343a40;
+}
+.active:hover{
+    color: #4d555e;
+}
+.h33{
+    color: #343a40;
+}
+.h333{
+    color: #343a40;
+}
+.h44{
+    color: rgba(0,0,0,.5);
+}
+.h{
+    color: rgba(0,0,0,.5);
+}
+
+
+.alink{
+    background-color: #343a40;
+}
+.login{
+    color: #343a40;
+}
+.login:hover{
+    color: #4b555e;
+}
+.text{
+    color: rgba(0,0,0,.5);
+}
+.img-thumbnaill{
+    padding: .25rem;
+    border-radius: .25rem;
+    max-width: 100%;
+    height: auto;
+}
 .vv{
     flex-direction: row;
+    width: 171px;
+    justify-content: space-between;
 }
 main div{
     margin: 6%;
@@ -31,7 +95,7 @@ h3{
     padding: 10px;
 }
 h2{
-    font-size: 1.4rem;
+    font-size: 2rem;
 }
 .p-5 {
     padding: 4rem !important;
@@ -174,17 +238,56 @@ h2{
     background-color: black;
     padding: 40px;
 }
-.cust {
-    z-index: 1;
-    right: 0;
-    bottom: 50%;
-    color: #343a40;
+.btn-lightt{
     background-color: white;
-    border-color: #343a40;
 }
-.cust{
+.textt{
+    color: #282c32;
+}
+.copy{
+    color: white;
+}
+.texttt{
+    color: #282c32;
+}
+.vvv{
+    flex-direction: row;
+}
 
+.btns .btn{
+    width: 100px;
 }
+
+
+
+
+
+
+
+
+.side{
+    animation-name: side;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes side {
+    0%{
+        color: #8c2323;
+    }
+    50%{
+        color: #ffa587;
+    }
+    100%{
+        color: #383e5a;
+    }
+}
+
+
+
+
+
+
 
 
 
