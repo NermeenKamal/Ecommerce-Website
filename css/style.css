@@ -257,6 +257,95 @@ h2{
 .btns .btn{
     width: 100px;
 }
+.items{
+background-color: #d7a1a766;
+    margin-right: 20px;
+    text-align: center;
+}
+.items img{
+    width: 271px;
+    height: 323px;
+    padding: 21px;
+    border-radius: 28px;
+}
+.reverse-do{
+    margin-top: 40px;
+}
+.items button{
+    border: none;
+    border-radius: 10px;
+    background-color:  #282c32;
+    color: white;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+}
+.items button:hover{
+    background-color: rgba(0, 0, 0, 0.71);
+}
+.items h2{
+    color: #282c32;
+}
+.backk{
+    position: absolute;
+    z-index: -5;
+    animation-name: back;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    background-color: #ff0000;
+    min-width: 100%;
+    height: 250px;
+    left: 0;
+    margin-top: 64px;
+}
+.backk p{
+    font-size: 100px;
+    margin-top: 60px;
+}
+@keyframes back {
+    0%{
+        background-color: #0b654b;
+
+    }
+    50%{
+        background-color: #ff0000;
+    }
+    100%{
+        background-color: #182a87;
+    }
+}
+
+
+.back{
+    position: absolute;
+    z-index: -5;
+    animation-name: backk;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: linear;
+    left: 0;
+    background-color: #8c2323;
+    min-width: 100%;
+    height: 250px;
+    margin-top: 64px;
+}
+.back p{
+    font-size: 100px;
+    margin-top: 60px;
+}
+@keyframes backk {
+    0%{
+        background-color: #0b654b;
+    }
+    50%{
+        background-color: #ff0000;
+    }
+    100%{
+        background-color: #383e5a;
+    }
+}
+
 
 
 
@@ -282,9 +371,6 @@ h2{
         color: #383e5a;
     }
 }
-
-
-
 
 
 
